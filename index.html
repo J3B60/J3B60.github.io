@@ -1,12 +1,222 @@
 <!DOCTYPE html>
+<!--
+	Spectral by HTML5 UP	html5up.net | @ajlkn	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)-->
 <html>
-	<head>
-		<meta charset = "UTF-8">
-		<link href="styles/style.css" rel="stylesheet" type="text/css">
-		<title>Test Website</title>
-	</head>
-	<body>
-		<h1> Hello Wrld</h1>
-		<script src="scripts/main.js"></script>
-	</body>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Portfolio | Milan Lacmanović</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+  </head>
+  <body class="landing is-preload">
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="alt">
+        <h1><a href="index.html">Portfolio | Milan Lacmanović</a></h1>
+        <nav id="nav">
+          <ul>
+            <li class="special"> <a href="#menu" class="menuToggle"><span>Menu</span></a>
+              <div id="menu">
+                <ul>
+                  <li><a href="#banner">About Me</a></li>
+                  <li><a href="#one">Skills</a></li>
+                  <li><a href="#two">Projects</a></li>
+                  <li><a href="#three">Contact Me</a></li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- Banner -->
+      <section id="banner">
+        <div class="inner">
+          <h2>Milan Lacmanović</h2>
+          <p>I am a University of Reading Graduate with a passion for all things
+            computer science <br>
+            and technology. I have worked on projects ranging from building
+            Robots <br>
+            to Developing Facial Recognition Systems. My main ambition is to
+            work <br>
+            on Artificial Intelligence Systems.</p>
+          <ul class="actions special">
+            <li><a href="https://github.com/J3B60" class="button primary">Github</a></li>
+            <li><a href="https://www.linkedin.com/in/milan-lacmanovic-277a66159/"
+                class="button primary">LinkedIn</a></li>
+            <li><a href="mailto:milan.lac@hotmail.com?subject=%20&amp;body=%20"
+                class="button primary">Email</a></li>
+          </ul>
+        </div>
+        <a href="#one" class="more scrolly">More Info</a> </section>
+      <!-- One -->
+      <section id="one" class="wrapper style3 special">
+        <div class="inner">
+          <header class="major">
+            <h2>Skills</h2>
+          </header>
+          <ul class="features">
+            <li> <img src="images/python.svg" height="50">
+              <h3>Python</h3>
+              <p>My main go-to programming language including knowledge in many
+                libraries such as PyQt5, OpenCV, Jupyter, Pandas, Matplotlib,
+                Numpy, Scikit-Learn and more.</p>
+            </li>
+            <li> <img src="images/cpp.svg" height="50">
+              <h3>C/C++</h3>
+              <p>Extensive knowledge in C and C++ including knowledge in CUDA
+                C/C++. Have worked with C and C++ on both Windows and Linux
+                systems.</p>
+            </li>
+            <li> <img src="images/java-alt.png" height="50">
+              <h3>Java</h3>
+              <p>Proficient in Java including working with Java for PC GUI
+                programs (Windows and Linux) and Android apps.</p>
+            </li>
+            <li> <img src="images/postgresql.svg" height="50">
+              <h3>PostgreSQL</h3>
+              <p>Knowledge in SQL predominantly in PostgreSQL. Including
+                knowledge in planning Relational Databases, E-R models and more.</p>
+            </li>
+            <li> <img src="images/matlab.png" height="50">
+              <h3>MATLAB</h3>
+              <p>Usage of MATLAB to manipulate matrices and images to generate
+                data and graphs. Currently hold a certificate in MATLAB Onramp.</p>
+            </li>
+            <li> <img src="images/knime.png" height="50">
+              <h3>KNIME</h3>
+              <p>Knowledge in data processing such as PCA and Machine Learning.
+                with a certificate in Data Science with KNIME software (L1).</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- Two -->
+      <section id="two" class="wrapper alt style2">
+        <section class="spotlight">
+          <div class="image"><img src="images/pic01.jpg" alt=""></div>
+          <div class="content">
+            <h2>Facial Recognition Individual Project (Final Year)</h2>
+            <p>A complete facial recognition system with programs that enroll
+              users, manage image and the user SQL database, monitor the camera
+              feeds and door security locks. Face detection achieved using Haar
+              Cascade Classifiers and face recognition achieved with Local
+              Binary Pattern Histogram (LBPH) in OpenCV. Project also includes
+              four implementations of anti-spoofing using Fourier analysis
+              descriptors, blink detection and colour texture analysis (CTA).</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/pic04.jpg" alt=""></div>
+          <div class="content">
+            <h2>Noughts and crosses AI</h2>
+            <p>Noughts and crosses (Tic-Tac-Toe) implemented in Python (and
+              using PyQt) with the main focus on Reinforcement Learning using
+              Q-Learning. Implemented from scratch, first starting with the
+              implementation of the Minimax Algorithm, Alpha-Beta Pruning then
+              Q-Learning. Generated the game tree using parallel computing to
+              find the 765 unique legal game states out of 986,410 possible
+              states.</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/pic02.jpg" alt=""></div>
+          <div class="content">
+            <h2>Android Game Project</h2>
+            <p>An Android game based on the original Pac-man arcade game. This
+              game has 3 levels including a boss level against Nokia's snake for
+              a bit of fun. The game includes a level editor that allows players
+              to make their own levels in the app.</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/knime-task3.svg" style="background-color:white"></div>
+          <div class="content">
+            <h2>Data Science with KNIME Project</h2>
+            <p>A KNIME project focused on identifying the Higgs-Boson particles
+              from a dataset from particle collisions at CERN. A binary
+              classification problem solved by using PCA, normalisation, cross
+              validation and decision trees to train the model and then classify
+              unseen data as accurately as possible.</p>
+          </div>
+        </section>
+        <section class="spotlight">
+          <div class="image"><img src="images/pic03.jpg" alt=""></div>
+          <div class="content">
+            <h2>Extended Project in Robotics</h2>
+            <p>A project that gave birth to my tinkering nature, this robot was
+              put together after a year of research and experimentation. The
+              robot has four wheels for maneuvering, two ultra-sonic sensors
+              (one to detect obstacles in front, one to detect the edge of a
+              table), two speakers, an Arduino which controls the PWM circuits
+              for the wheel motors, a Raspberry Pi which runs a Python program
+              that sends instructions to the wheels through the Arduino, a USB
+              webcam is connected to the Raspberry pi for face detection and
+              behind the camera is a tripod which holds a smartphone which is
+              used as the Raspberry Pi's interface for the program which shows
+              the user the robots emotions. The robot's program has an algorithm
+              to move around obstacles and avoid edges of tables.The robot
+              expresses happiness when it detects a face, worry when it's picked
+              up or finds a table edge, frustration if it's surrounded by
+              obstacles and sadness if it hasn't seen a face in a while. The
+              robot is also able to be controlled thought a controller or
+              smartphone via Bluetooth or WiFi.</p>
+          </div>
+        </section>
+      </section>
+      <!-- Three -->
+      <section id="cta" class="wrapper style4">
+        <div class="inner">
+          <h4>Contact</h4>
+        </div>
+        <div class="inner">
+          <form method="post" action="#">
+            <div class="row gtr-uniform">
+              <div class="col-6 col-12-xsmall"> <input name="demo-name" id="demo-name"
+                  value="" placeholder="Name" type="text"> </div>
+              <div class="col-6 col-12-xsmall"> <input name="demo-email" id="demo-email"
+                  value="" placeholder="Email" type="email"> </div>
+              <div class="col-6 col-12-small"> <input id="demo-copy" name="demo-copy"
+                  type="checkbox"> <label for="demo-copy">Email me a copy</label></div>
+              <div class="col-6 col-12-small"> <input id="demo-human" name="demo-human"
+                  checked="checked" type="checkbox"> <label for="demo-human">Not
+                  a robot</label> </div>
+              <div class="col-12"> <textarea name="demo-message" id="demo-message"
+placeholder="Enter your message" rows="6"></textarea> </div>
+              <div class="col-12">
+                <ul class="actions">
+                  <li><input value="Send Message" class="primary" type="submit"></li>
+                  <li><input value="Reset" type="reset"></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li><a href="https://github.com/J3B60" class="icon brands fa-github"><span
+                class="label">Github</span></a></li>
+          <li><a href="https://www.linkedin.com/in/milan-lacmanovic-277a66159/"
+              class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+          <li><a href="mailto:milan.lac@hotmail.com?subject=%20&amp;body=%20" class="icon solid fa-envelope"><span
+                class="label">Email</span></a></li>
+        </ul>
+        <ul class="copyright">
+          <li>Customised by Me</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
